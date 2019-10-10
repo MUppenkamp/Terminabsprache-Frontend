@@ -1,0 +1,99 @@
+.DateButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.addedDates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DateList {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: none !important;
+}
+
+.description {
+    height: 60px !important;
+}
+
+
+.createButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deadline {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* .personfinder > div > div > div > input {
+    width: 100% !important;
+} */
+
+.finalDate {
+    background-color: rgba(76,175,80,.15);
+    color: #4caf50;
+}
+
+.badgeAndCheckbox {
+    display: flex;
+}
+
+.UACGroups {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* PARTICIPANT LIST */
+.participantList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    overflow: hidden;    
+}
+
+.user {
+    flex: 1 0 21%;
+    height: 100%;
+    display: block;
+    margin-top: 15px;
+    justify-content:  space-around;
+}
+
+.subline {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Ongoign Polls */
+/* .checkboxAndParticipants { 
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+} */
+
+/* .checkboxes {
+    grid-column: 12/12;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.list-item {
+    grid-column: 1/12;
+} */
+
+.listBorder {
+    border: 1px solid transparent;
+    border-bottom-color: #777;
+    grid-column: 1/12;
+} 
